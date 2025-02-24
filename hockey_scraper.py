@@ -1,3 +1,4 @@
+##The main scraping and processing script to scrap from the website
 import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
