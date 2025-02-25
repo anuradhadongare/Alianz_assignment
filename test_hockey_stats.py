@@ -20,6 +20,7 @@ def test_analyze_data():
         [1990, "Team A", 20, "Team B", 15],
         [1991, "Team C", 25, "Team D", 10], 
     ]
-    #This is the assertion. It checks if the actual output (summary) matches the expected output (expected_summary). If they are equal, the test passes; otherwise, it fails.
+    #This is the assertion. It checks if the actual output (summary) matches the expected output (expected_summary). 
+    ##If they are equal, the test passes; otherwise, it fails.
     assert summary == expected_summary
 
